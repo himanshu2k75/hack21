@@ -5,8 +5,8 @@ int main(){
   scanf("%d %d %d",&n[0],&n[1],&n[2]);
   if(n[0]==n[1]||n[1]==n[2]||n[2]==n[0])
   {
-      printf("True");
+      printf("Yes");
   }
   else 
-  printf("false");
+  printf("no");
 }
